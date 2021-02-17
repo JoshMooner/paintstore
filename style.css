@@ -1,0 +1,359 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+/*IMAGE SETTING*/
+.image-container {
+    overflow: hidden;
+  }
+  
+.image-container img {
+    display: block;
+    max-width: 100%;
+    height: 200px;
+}
+
+/*HEADER*/
+header {
+    /*border: 1px solid green;*/
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+}
+
+nav {
+    border: solid orange 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    /*border: solid black 1px;*/
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+.header_title h3{
+    text-transform: uppercase;
+    color: white;
+    /*border: 1px solid black;*/
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 42px;
+}
+
+/*TITLE*/
+
+/*MAIN TITLE*/
+.maintitle {
+    border: solid 0.000001px black;
+    background-size: cover;
+    background-image: linear-gradient(
+      rgba(255, 0, 0, 0.3), 
+      rgba(255, 0, 0, 0.3)),
+        url(https://www.repaintprofessionals.ca/media/website_pages/painting-contractor-blog/10-tips-to-consider-before-interior-house-painting/10-Tips-to-Consider-Before-Interior-House-Painting.jpg); 
+}
+
+.maintitle h1 {
+    text-transform: uppercase;
+    text-align: center;
+    /*border: 1px solid yellow;*/
+    font-size: 6rem;
+    font-family: "Creepster", cursive;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 80px 100px;
+    padding: 0px 20px;
+}
+
+.maintitle p {
+    text-align: center;
+    /*border: 2px solid blue;*/
+    color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin: 50px 200px;
+}
+
+/*SUBTITLE*/
+.subtitle {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.subtitle h2 {
+    color: orange;
+    /*border: solid black 1px;*/
+    font-size: 2rem;
+}
+
+.subtitle p{
+    /*border: 1px solid black;*/
+    font-size: 1.375rem;
+    line-height: 1.4;
+    margin: 0px 80px;
+    margin-bottom: 20px;
+}
+
+/*BODY*/
+/*COLORS*/
+
+/*-------RED-------*/
+.red {
+    /*border: 1px solid black;*/
+    display: flex;
+    margin: 10px 30px;
+}
+
+.red .information {
+    /*border: 1px solid black;*/
+    width: 40%;
+    margin-right: 20px;
+}
+
+.red .information .base-color {
+    color: hsl(350, 100, 50);
+}
+
+.red .swatches {
+    /*border: 1px solid black;*/
+    width: 60%;
+}
+
+/* LIGHTNESS RED */
+.swatch_lightness {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.red .swatch_lightness .lightness_red{
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+/* SATURATION RED*/
+.swatch_saturation {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.red .swatch_saturation .saturation_red {
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+/* HUE RED */
+.swatch_hue {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.red .swatch_hue .hue_red {
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;    
+}
+
+/*-------GREEN-------*/
+.green {
+    /*border: 1px solid black;*/
+    display: flex;
+    margin: 10px 30px;
+}
+
+.green .information {
+    /*border: 1px solid black;*/
+    width: 40%;
+    margin-right: 20px;
+}
+
+.green .swatches {
+    /*border: 1px solid black;*/
+    width: 60%;
+}
+
+/* LIGHTNESS GREEN */
+.swatch_lightness {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.green .swatch_lightness .lightness_green{
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+/* SATURATION GREEN*/
+.swatch_saturation {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.green .swatch_saturation .saturarion_green {
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+/* HUE RED */
+.swatch_green {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.green .swatch_hue .hue_green {
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;    
+}
+
+/*-------BLUE-------*/
+.blues {
+    /*border: 1px solid black;*/
+    display: flex;
+    margin: 10px 30px;
+}
+
+.blues .information {
+    /*border: 1px solid black;*/
+    width: 40%;
+    margin-right: 20px;
+}
+
+.blues .swatches {
+    /*border: 1px solid black;*/
+    width: 60%;
+}
+
+/* LIGHTNESS BLUE */
+.swatch_lightness {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.blues .swatch_lightness .lightness_blue{
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+/* SATURATION BLUE*/
+.swatch_saturation {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.blues .swatch_saturation .saturation_blue {
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;
+}
+
+/* HUE BLUE */
+.swatch_blue {
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.blues .swatch_hue .hue_blue {
+    width: calc(95% / 5);
+    height: 145px;
+    padding: 0;
+    margin: 2px;
+    float: left;    
+}
+
+/*FOOTER*/
+footer {
+    /*border: 1px solid orange;*/
+    color: white;
+    width: 100%;
+    height: 400px;
+    padding: 10px 0px;
+    background-image: linear-gradient(
+        rgba(255, 0, 0, 0.3), 
+        rgba(255, 0, 0, 0.3)),
+          url(https://www.canstar.com.au/wp-content/uploads/2020/01/Cost-painting-a-house-1.jpg); 
+    background-size: cover;
+    
+}
+
+.footer_container {
+    /*border: 1px solid blue;*/
+    text-align: center;
+}
+
+.footer_container h2{
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin: 50px 300px;
+    font-size: 30px;
+}
+
+.footer_container p{
+    /*border: 1px solid black;*/
+    margin: 50px 250px;
+    font-size: 1.375rem;
+}
+
+.footer_container a{
+    color: white;
+    /*border: solid 2px black;*/
+    background-color: orange;
+    padding: 20px 50px;
+}
+
+.footer_container a:hover {
+    color: black;
+}
+
+
+
